@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Audio y video</title>
+  </head>
+  <body>
+  	<div class="container">
+    	<h1>Sesión 6 - Audio y video</h1>
+    	<h2>video del fary de youtube</h2>
+    	<iframe width="560" height="315" src="https://www.youtube.com/embed/YcmwdyPAt5o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    	<h2>video mp4</h2>
+    	<video poster="imagenes/presentacion.jpg" autoplay width="800" controls>
+  			<source src="videos/obejas.mp4" type="video/mp4">
+  			<source src="videos/obejas.ogg" type="video/ogg">
+  			Your browser does not support the video tag.
+  		</video>
+  		<h2>Audio</h2>
+  		<audio controls>
+  			<source src="audios/cancion.ogg" type="audio/ogg">
+  			<source src="audios/cancion.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+		<h2>tabla audio</h2>
+		<table>
+<thead>
+<tr>
+<th>Atributo</th>
+<th>Valor</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>src</code></td>
+<td><em>Dirección URL</em></td>
+<td>Audio a reproducir. Obligatoria si actua como etiqueta contenedora.</td>
+</tr>
+<tr>
+<td><code>preload</code></td>
+<td><strong>auto</strong> | <code>metadata</code> | <code>none</code></td>
+<td>Indica como realizar la precarga del audio.</td>
+</tr>
+<tr>
+<td><code>mediagroup</code></td>
+<td><em>nombre</em></td>
+<td>Establece un nombre para un grupo de contenidos multimedia.</td>
+</tr>
+<tr>
+<td><code>autoplay</code></td>
+<td><badge-type class="boolean"></badge-type></td>
+<td>Comienza a reproducir el audio automáticamente.</td>
+</tr>
+<tr>
+<td><code>loop</code></td>
+<td><badge-type class="boolean"></badge-type></td>
+<td>Vuelve a iniciar el audio cuando finaliza su reproducción (bucle).</td>
+</tr>
+<tr>
+<td><code>muted</code></td>
+<td><badge-type class="boolean"></badge-type></td>
+<td>Establece el audio sin sonido (silenciado).</td>
+</tr>
+<tr>
+<td><code>controls</code></td>
+<td><badge-type class="boolean"></badge-type></td>
+<td>Muestra los controles de reproducción. Por defecto no se muestran.</td>
+</tr>
+</tbody>
+</table>
+	</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
